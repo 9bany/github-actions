@@ -1,8 +1,6 @@
-name: NodeJS with Gulp
+name: Run CI - that check test case for development
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
