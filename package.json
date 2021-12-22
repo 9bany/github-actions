@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/9bany/github-actions-demo#readme",
   "dependencies": {
+    "express": "^4.17.2",
     "jest": "^27.4.5"
   }
 }
